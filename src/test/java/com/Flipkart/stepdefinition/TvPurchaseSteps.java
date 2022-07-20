@@ -39,7 +39,7 @@ public class TvPurchaseSteps {
 
 	@When("User will select the TV")
 	public void user_will_select_the_TV() {
-		WebElement mobile1=MobilePurchseSteps.driver.findElement(By.xpath("(//div[@class='_4rR01T'])[1]"));
+		WebElement mobile1=MobilePurchseSteps.driver.findElement(By.xpath("//div[text()='Mi 5X 108 cm (43 inch) Ultra HD (4K) LED Smart Android TV with Dolby Atmos and Dolby Vision']"));
 		mobile1.click();
 	}
 	@When("User will Search the TV by one dim list")

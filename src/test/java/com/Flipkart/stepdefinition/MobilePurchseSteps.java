@@ -63,6 +63,8 @@ public class MobilePurchseSteps {
 	@Then("User will make payments and recivie the cofirmation messsage.")
 	public void user_will_make_payments_and_recivie_the_cofirmation_messsage()  {
 		System.out.println("Payment Sucessfull");
+		driver.quit();
+		System.out.println("browser quitted");
 	}
 
 	@When("User will Search the mobile by one dim list")

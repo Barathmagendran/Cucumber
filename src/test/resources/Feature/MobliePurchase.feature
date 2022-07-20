@@ -1,6 +1,8 @@
 #Author: your.email@your.domain.com
+
 Feature: Mobile purchase
   I want to use this template for my feature file
+  @barath
    Scenario: Mobile
     Given user will launch the FliKart website
     And User will login
@@ -8,7 +10,7 @@ Feature: Mobile purchase
     And User will select the moblie
     Then User will make payments and recivie the cofirmation messsage.
 
-    
+    @barath
      Scenario: Mobile
     Given user will launch the FliKart website
     And User will login
@@ -16,7 +18,7 @@ Feature: Mobile purchase
     |Redmi mobile|
     And User will select the moblie
     Then User will make payments and recivie the cofirmation messsage.
-    
+    @barath
      Scenario: Mobile
     Given user will launch the FliKart website
     And User will login
@@ -27,7 +29,7 @@ Feature: Mobile purchase
     And User will select the moblie
     Then User will make payments and recivie the cofirmation messsage.
     
-
+@barath
   Scenario Outline: Mobile
     Given user will launch the FliKart website
     And User will login
